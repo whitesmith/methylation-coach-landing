@@ -4,12 +4,12 @@ export default function OurStory() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-12 text-center">
-            Our Story
+            Our story
           </h1>
 
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              We Built It Because We Needed It.
+              We build it because we need it.
             </h2>
 
             <p className="text-lg text-gray-600 mb-6">

@@ -5,7 +5,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
-              Stop Guessing. Start Balancing.
+              Stop guessing, start balancing!
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               The first AI health companion that connects your <strong>Genetics</strong>, <strong>Nutrition</strong>, and <strong>Symptoms</strong> to optimize your body's methylation cycle in real-time.
@@ -34,7 +34,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-16">
-            The "Missing Link" in Your Health Data
+            The missing link in your health data
           </h2>
 
           <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
@@ -43,21 +43,21 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="bg-white p-8 rounded-xl shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Your Genetics</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Your genetics</h3>
               <p className="text-gray-600">
                 We analyze your raw DNA data (specifically the MTHFR gene and 5-7 key SNPs) to understand your body's unique operating manual.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Your Nutrition</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Your nutrition</h3>
               <p className="text-gray-600">
                 Seamless integration with Cronometer tracks your intake of B12, Folate, and other methylation-critical nutrients.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-sm">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Your Symptoms</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Your symptoms</h3>
               <p className="text-gray-600">
                 Feeling low energy? Brain fog? Tell the app how you feel, and our AI cross-references it with your data to suggest the immediate next step.
               </p>
@@ -100,7 +100,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
-            Master Your Biochemistry
+            Master your biochemistry
           </h2>
 
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
@@ -109,13 +109,13 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Optimize Dopamine & Focus</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Optimize dopamine and focus</h3>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Support Natural Detox</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Support natural detox</h3>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Balance Energy Levels</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Balance energy levels</h3>
             </div>
           </div>
         </div>

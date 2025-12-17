@@ -27,7 +27,7 @@ export default function YourQuestions() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-12 text-center">
-            Your Questions
+            Your questions
           </h1>
 
           <div className="space-y-8">

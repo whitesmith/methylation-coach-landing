@@ -6,8 +6,8 @@ export default function Navigation() {
 
   const navItems = [
     { path: '/', label: 'Home' },
-    { path: '/our-story', label: 'Our Story' },
-    { path: '/your-questions', label: 'Your Questions' },
+    { path: '/our-story', label: 'Our story' },
+    { path: '/your-questions', label: 'Your questions' },
   ];
 
   return (
