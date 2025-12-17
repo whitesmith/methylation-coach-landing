@@ -65,28 +65,28 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/analysemyday.webp"
                 alt="Analyze My Day feature"
                 className="w-full h-auto"
               />
             </div>
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/findings.webp"
                 alt="Daily findings and recommendations"
                 className="w-full h-auto"
               />
             </div>
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/history.webp"
                 alt="History tracking"
                 className="w-full h-auto"
               />
             </div>
-            <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/symptomtracking.webp"
                 alt="Symptom tracking"
@@ -120,6 +120,31 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div className="text-center md:text-left">
+              <h3 className="text-xl font-bold mb-2">Methylation Coach</h3>
+              <p className="text-gray-400">Your AI-powered health companion</p>
+            </div>
+
+            <div className="text-center md:text-right">
+              <p className="text-gray-400 mb-2">Questions or feedback?</p>
+              <a
+                href="mailto:methylationcoach@whitesmith.co"
+                className="text-lg font-medium text-white hover:text-gray-300 transition-colors"
+              >
+                methylationcoach@whitesmith.co
+              </a>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+            <p>&copy; {new Date().getFullYear()} Methylation Coach. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
